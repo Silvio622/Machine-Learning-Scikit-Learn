@@ -1,2 +1,20 @@
+#Additional packages and libraries
+jupyter
+
+## Efficient numerical arrays.
+numpy
+
+## Data frames Library.
 pandas
+
+## Plotting Libraries
 matplotlib
+seaborn
+
+## Machine Learning Library
+sklearn
+
+## Statistics package.
+statsmodels
+scipy
+statistics
