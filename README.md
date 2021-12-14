@@ -1,6 +1,6 @@
 # Machine Learning and Statistics
 ***
-![Machine_Learning](ML.jpg)
+![Machine_Learning](img/ml.jpg)
 <br>
 
 ## Project Overview
@@ -27,7 +27,7 @@ you have three options to run this notebook
     1. Download and Insatll [Anaconda](https://www.anaconda.com/) or install [Python](https://www.python.org/downloads/) with<br>
     additional packges listed in the reqirement.txt file.
     2. Download and Install [Commander](https://cmder.net/) for your Operation System
-    3. Insert the path where the notebook files are loacated
+    3. Insert the path where the notebook files are located
     4. Run notebook by typing jupyter lab or jupyter notebook into the Commander command line
     5. Pick the `scikit-learn.ipynb` or the `scipy-stats.ipynb` file
     6. When notebook file is open<br>
