@@ -11,7 +11,7 @@ The second is the "scipy-stats.ipynb" notebook where I do hypothesis testing on 
 Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence AI.<br>
 
 ## What is Statistics?
-Statistics is the study and manipulation of data, including ways to gather, review, analyze, and draw conclusions from data. 
+Statistics is the study and manipulation of data, including ways to gather, review, analyse, and draw conclusions from data. 
 ***
 <br>
 
@@ -24,21 +24,21 @@ The project uses the Python package [Python](https://www.python.org/downloads/).
 
 you have three options to run this notebook
 * Option 1 from your local machine
-    1. Download and Insatll [Anaconda](https://www.anaconda.com/) or install [Python](https://www.python.org/downloads/) with<br>
-    additional packges listed in the reqirement.txt file.
+    1. Download and Install [Anaconda](https://www.anaconda.com/) or install [Python](https://www.python.org/downloads/) with<br>
+    additional packages listed in the reqirement.txt file.
     2. Download and Install [Commander](https://cmder.net/) for your Operation System
     3. Insert the path where the notebook files are located
     4. Run notebook by typing jupyter lab or jupyter notebook into the Commander command line
     5. Pick the `scikit-learn.ipynb` or the `scipy-stats.ipynb` file
     6. When notebook file is open<br>
-        Click on "Kernal" tab<br>
+        Click on "Kernel" tab<br>
         Click on "Restart" Button<br>
         Click on "Cells" tab<br>
         Click on "Run All"  
     7. Alternative Click on each cell and use the keyboard keys "Shift + Enter"       
     <br/>
     
-* Option 2  view the notebooks in static format
+* Option 2 view the notebooks in static format
 
     View the notebook "scikit-learn" from this link <br/>
     [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/Silvio622/Machine-Learning-Scikit-Learn/blob/main/scikit-learn.ipynb)
@@ -57,13 +57,27 @@ you have three options to run this notebook
 <br>
 
 ## Creating Machine Learning Scikit-Learn Notebook
-
+<br>
+<p>In this notebook I use the Classification and Regression Machine learning techniques with the Scikit-Learn package. The data sets I using for the Classifications is the “Iris data set”. The “KNeighborsClassifier” method is used to find the correct Iris flower. The “KNeighborsClassifier” predicts the right iris flower based on random selected values or measured values taken from the iris flower for the features Sepal length, Sepal width, Petal length and Petal width. The accuracy for the prediction is 98%.
+<p>On the second data set the Portuguese red wine data set I try to predict the quality of the red wine based on the attributes citric acid and sulphates. I used three different techniques the “Two Dimensional Logistic Regression”, “linear Logistic Regression” and the “KNeighborsClassifier”. The prediction results are very similar between the three different techniques. The prediction result or score is around only 50%. It is a disappointing result. 
+<p>The third data set is the “Hungarian chicken pox”. The data set contains the weekly chicken pox cases over period of 10 years in different cities in Hungary. With the “Multiple Regression” method I try to predict the chicken pox cases for the capital and biggest city in Hungary Budapest. The prediction result or the score is around 57%. I thought I could archive a better prediction.
 <br>
 
 ## References
+<br>
+
+https://medium.com/analytics-vidhya/exploration-of-iris-dataset-using-scikit-learn-part-1-8ac5604937f8
+
+https://medium.com/@jalalmansoori/lets-apply-our-first-machine-learning-model-part-2-8357952dc5c3
+
+https://medium.com/@jalalmansoori/how-to-evaluate-and-improve-knn-classifier-part-3-62d72fd17eec 
+
+https://datatofish.com/multiple-linear-regression-python/
+https://www.youtube.com/watch?v=dQNpSa-bq4M
 
 <br>
 
+***
 ## Creating Machine Learning Scipy-Stats Notebook
 
 <br>
