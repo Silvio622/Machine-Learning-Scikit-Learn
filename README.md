@@ -58,13 +58,13 @@ you have three options to run this notebook
 
 ## Creating Machine Learning Scikit-Learn Notebook
 <br>
-<p>In this notebook I use the Classification and Regression Machine learning techniques with the Scikit-Learn package. The data sets I using for the Classifications is the “Iris data set”. The “KNeighborsClassifier” method is used to find the correct Iris flower. The “KNeighborsClassifier” predicts the right iris flower based on random selected values or measured values taken from the iris flower for the features Sepal length, Sepal width, Petal length and Petal width. The accuracy for the prediction is 98%.
+<p>In this notebook I use the Classification and Regression Machine learning techniques with the Scikit-Learn package. The data sets I using for the Classifications is the “Iris data set”. The “KNeighborsClassifier” method is used to find the correct Iris flower. The “KNeighborsClassifier” predicts the right iris flower based on random selected values or measured values taken from the iris flower for the features Sepal length, Sepal width, Petal length and Petal width. The three Iris flower species are Setosa, Versicolor and Virginica. The accuracy for the prediction is 98%.
 <p>On the second data set the Portuguese red wine data set I try to predict the quality of the red wine based on the attributes citric acid and sulphates. I used three different techniques the “Two Dimensional Logistic Regression”, “linear Logistic Regression” and the “KNeighborsClassifier”. The prediction results are very similar between the three different techniques. The prediction result or score is around only 50%. It is a disappointing result. 
 <p>The third data set is the “Hungarian chicken pox”. The data set contains the weekly chicken pox cases over period of 10 years in different cities in Hungary. With the “Multiple Regression” method I try to predict the chicken pox cases for the capital and biggest city in Hungary Budapest. The prediction result or the score is around 57%. I thought I could archive a better prediction.
-<br>
+<br><br>
 
 ## References
-<br>
+
 
 https://medium.com/analytics-vidhya/exploration-of-iris-dataset-using-scikit-learn-part-1-8ac5604937f8
 
@@ -79,7 +79,20 @@ https://www.youtube.com/watch?v=dQNpSa-bq4M
 
 ***
 ## Creating Machine Learning Scipy-Stats Notebook
-
 <br>
+<p>In the Scipy-Stats Notebook I carry out a t-test on the famous Iris data set and an ANOVA test on a Diet data set. A t-test can only be used when comparing the means of two groups a pairwise comparison. If you want to compare more than two groups, or if you want to do multiple pairwise comparisons, use an ANOVA test or a post-hoc test. ANOVA stands for Analysis of Variance. One-way ANOVA is the most basic form.
+<p>The Iris data set contains four features Sepal length, Sepal width, Petal length and Petal width for three different Iris flower species Setosa, Versicolor and Virginica. For the Iris data set the null hypothesis H0 (no difference between two possibilities) is that the Setosa Iris flower Sepal length is the same as the Versicolor Iris flower Sepal length. The t-test shows that both Iris flowers have the same average Sepal length. The p or probability value was much lower than 0.05 or 5%. The null hypothesis was accepted. 
+<p>On the Diet data set I carry out an ANOVA test and a Post hoc test for three different types of Diets. The Diet’s been called Diet 1, Diet 2 and Diet 3. They are no statistically difference between Diet 1 and Diet 2 but statistically difference between Diet 1 and Diet 3 as well between Diet 2 and Diet 3. 
+<br><br>
 
 ## References
+
+https://www.scribbr.com/statistics/t-test/
+
+https://www.qualtrics.com/uk/experience-management/research/anova/
+
+https://statistics.laerd.com/spss-tutorials/one-way-anova-using-spss-statistics.php
+
+https://www.youtube.com/watch?v=EWYzeZbchR0
+
+https://www.youtube.com/watch?v=BOGCsSzQNR4
